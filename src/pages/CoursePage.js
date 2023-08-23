@@ -25,7 +25,7 @@ function CoursePage() {
           const encodedPath = folder['encodedUrls'][i];
           const lastIndex = file.lastIndexOf("\\");
           const fileName = file.substring(lastIndex);
-          if (!fileName.endsWith(".srt")) {
+          if (!fileName.endsWith(".srt") && !fileName.endsWith(".vtt")) {
             let icon = "";
             if (fileName.endsWith(".mp4")) {
               icon = <FaIcons.FaVideo />

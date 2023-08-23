@@ -16,10 +16,11 @@ const CourseDiv = styled.div`
 
 const CourseWrap = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 80%;
   padding: 20px;
   margin: 0 auto;
+  flex-wrap: wrap;
 `
 
 function HomePage() {
